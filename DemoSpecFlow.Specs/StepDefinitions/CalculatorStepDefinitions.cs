@@ -31,7 +31,7 @@ namespace DemoSpecFlow.Specs.StepDefinitions
         public void ThenTheResultShouldBe(int result)
         {
             _result.Should().Be(result);
-            //System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(2000);
         }
 
         [When(@"the two numbers are subtracted")]

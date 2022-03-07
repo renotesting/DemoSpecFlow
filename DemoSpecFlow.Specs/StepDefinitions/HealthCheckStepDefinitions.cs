@@ -33,7 +33,7 @@ namespace SpecFlowCalculator.Specs.StepDefinitions
             dynamic response = (dynamic)_scenarioContext["ActualObject"];
             request.ResponseToString(response);
             request.ResponseToJsonObject(request.ResponseStr);
-            //System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(2000);
         }
 
 
