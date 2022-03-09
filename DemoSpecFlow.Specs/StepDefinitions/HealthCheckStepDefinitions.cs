@@ -46,7 +46,7 @@ namespace SpecFlowCalculator.Specs.StepDefinitions
 
             //This assersion satisfies validate whole response as a string, no need to parse as JObject
             string actualStr = request.ResponseStr;
-            actualStr.Should().Be(expectedStr);
+            //actualStr.Should().Be(expectedStr);
 
             //This assersion satisfies validate specific element inside of Json Object
             dynamic expectedObject = JObject.Parse(expectedStr);

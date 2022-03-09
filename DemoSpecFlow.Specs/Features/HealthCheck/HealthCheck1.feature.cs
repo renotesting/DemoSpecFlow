@@ -75,11 +75,13 @@ namespace DemoSpecFlow.Specs.Features.HealthCheck
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Credit Check Health Check1-1")]
-        [NUnit.Framework.CategoryAttribute("tag1")]
+        [NUnit.Framework.CategoryAttribute("tagMedium")]
+        [NUnit.Framework.CategoryAttribute("tagRegression")]
         public virtual void CreditCheckHealthCheck1_1()
         {
             string[] tagsOfScenario = new string[] {
-                    "tag1"};
+                    "tagMedium",
+                    "tagRegression"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Credit Check Health Check1-1", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 6

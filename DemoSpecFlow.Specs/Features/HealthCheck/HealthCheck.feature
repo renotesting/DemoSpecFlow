@@ -2,7 +2,7 @@
 
 A short summary of the feature
 
-@tag1
+@tagHigh @smoke @tagRegression
 Scenario: Credit Check Health Check
 	Given I send health check to the credit check endpoint
 	When I receive and parse response
